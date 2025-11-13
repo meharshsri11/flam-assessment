@@ -16,8 +16,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // ⭐ FIX: Add the required repository for OpenCV
-        maven { url = uri("https://repo.opencv.org/maven") }
     }
 }
 
